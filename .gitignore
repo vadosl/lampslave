@@ -1,10 +1,10 @@
 *~
 *.pyc
-*.sqlite*
-db.*
-production_settings.py
+#*.sqlite*
+#db.*
+#production_settings.py
 dev_settings.py
-media/*
-static/*
+#media/*
+#static/*
 .idea/*
 .coverage

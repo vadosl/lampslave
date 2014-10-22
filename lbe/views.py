@@ -49,7 +49,7 @@ class ArticleDetail(DetailView):
 
 class ArticleList(ListView):
     model = Article
-    paginate_by = 10
+    paginate_by = 2
 
     def get_queryset(self):
         qs = super(ArticleList, self).get_queryset()

@@ -22,6 +22,7 @@ class ArticleAdmin(admin.ModelAdmin):
 
 
 class CommentAdmin(admin.ModelAdmin):
+    list_display = ['article', 'parent', 'user_name']
     formfield_overrides = {
         models.TextField: {'widget': AdminPagedownWidget},
     }
